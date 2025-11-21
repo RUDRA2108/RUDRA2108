@@ -1,103 +1,174 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Rudra Patel — Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&family=Roboto+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rudra Patel — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="theme-dark">
-<header class="site-header">
-  <div class="nav-wrap container">
-    <div class="brand"><a href="index.html">Rudra Patel</a></div>
-    <button id="hamburger" class="hamburger" aria-label="menu">☰</button>
-    <nav id="main-nav" class="nav">
-      <a href="index.html">Home</a>
-      <a href="publications.html">Publications</a>
-      <a href="ongoing.html">Ongoing</a>
-      <a href="projects.html">Projects</a>
-      <a href="skills.html">Skills</a>
-      <a href="experience.html">Experience</a>
-    </nav>
-    <div class="nav-actions">
-      <button id="theme-toggle" class="icon-btn" aria-label="toggle theme">🌓</button>
-      <a class="icon-btn" href="https://github.com/RUDRA2108" target="_blank" title="GitHub">🐱</a>
-      <a class="icon-btn" href="https://www.linkedin.com/in/rudra-patel-9b9821250/" target="_blank" title="LinkedIn">in</a>
+  <header class="site-header">
+    <div class="nav-wrap container">
+      <div class="brand"><a href="index.html">Rudra Patel</a></div>
+      <button id="hamburger" class="hamburger" aria-label="menu"><i class="ri-menu-4-line"></i></button>
+      <nav id="main-nav" class="nav">
+        <a href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="ongoing.html">Ongoing</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="icon-btn" href="https://github.com/RUDRA2108" target="_blank" title="GitHub"><i
+            class="ri-github-fill"></i></a>
+        <a class="icon-btn" href="https://www.linkedin.com/in/rudra-patel-9b9821250/" target="_blank"
+          title="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+      </div>
     </div>
-  </div>
-</header>
-<main class="main">
-<section class="container hero fade-up">
-<div class="avatar"><img src="assets/profile.jpg" alt="Rudra Patel"></div>
-<div class="intro">
-<h1>Rudra Patel</h1>
-<div class="sub muted">B.Tech (Materials Engineering) — Computational Materials • IIT Jodhpur</div>
-<div class="contact muted">Email: <a href="mailto:patelrudra400@gmail.com">patelrudra400@gmail.com</a> • Phone: +91-8160079643</div>
-<div class="buttons">
-<a class="btn primary" href="assets/cv_rudra.pdf" download>Download CV</a>
-<a class="btn" href="https://github.com/RUDRA2108" target="_blank">View GitHub</a>
-<a class="btn" href="https://www.linkedin.com/in/rudra-patel-9b9821250/" target="_blank">LinkedIn</a>
-</div></div></section>
-<div class="container grid">
-<div>
-<section class="card fade-up"><div class="section-title"><h2>About</h2></div>
-<p class="muted">
-I’m Rudra Patel, a final-year Materials Engineering student at <strong>IIT Jodhpur</strong> with a passion for combining <strong>materials science</strong> and <strong>artificial intelligence</strong>. 
-I love solving complex problems — from simulating materials at the atomic scale to building AI models that can predict properties or monitor manufacturing in real time.
-<br><br>
-Over the past few years, I’ve worked on projects in <strong>computational materials</strong>, <strong>machine learning</strong>, and <strong>additive manufacturing</strong>, gaining hands-on experience with tools like <strong>Quantum ESPRESSO</strong>, <strong>LAMMPS</strong>, <strong>DAMASK</strong>, and Python-based AI frameworks.
-<br><br>
-My goal is simple: use data, computation, and creativity to speed up the way we design and understand new materials.
-</p></section>
-<section class="card fade-up" style="margin-top:14px"><div class="section-title"><h2>Ongoing Projects</h2><div class="muted"><a href="ongoing.html">See all</a></div></div><div class="muted">
-<div style="margin-bottom:8px"><strong>In-situ Monitoring & Dimensional Analysis of Additive Manufacturing</strong><div>Developing an in-situ monitoring system using deep learning and 3D reconstruction to assess dimensional accuracy during FDM prints.</div></div>
-<div style="margin-bottom:8px"><strong>Layer Determination in 2D TMDs</strong><div>Using optical contrast and ML to predict the number of layers in transition metal dichalcogenides.</div></div>
-<div style="margin-bottom:8px"><strong>ML-Based Property Prediction of Li-based Oxides</strong><div>Interpretable ML pipelines to predict bandgap and formation energy for layered lithium transition metal oxides.</div></div>
-</div></section>
-<section class="card fade-up" style="margin-top:14px"><div class="section-title"><h2>Selected Projects</h2><div class="muted"><a href="projects.html">See all</a></div></div><div class="project-grid">
-<div class="project-card">
-<strong>Rolling-Based Study of Ti-5553 Alloy</strong>
-<div class="muted">Aug 2024 – May 2025</div>
-<div class="muted" style="margin-top:6px">Synthesis, rolling and mechanical testing of Ti-5553 alloy; microstructure characterization and hardness testing.</div>
-</div>
-<div class="project-card">
-<strong>ML-Driven Image Processing of Electron Micrographs</strong>
-<div class="muted">Aug 2023 – Dec 2023</div>
-<div class="muted" style="margin-top:6px">Developed TEM image processing pipeline, interpolation and ML-based analysis.</div>
-<div style="margin-top:8px"><a href="https://github.com/RUDRA2108" target="_blank">Repository</a></div>
-</div>
-<div class="project-card">
-<strong>Bulk Modulus Calculation of Si and Ni using Quantum ESPRESSO</strong>
-<div class="muted">Jun 2024</div>
-<div class="muted" style="margin-top:6px">Structure optimization, energy calculations, polynomial fitting and bulk modulus extraction.</div>
-</div>
-<div class="project-card">
-<strong>Electronic Band Structure & DOS Analysis (Si & Al)</strong>
-<div class="muted">Jul 2024</div>
-<div class="muted" style="margin-top:6px">SCF & NSCF calculations, DOS plotting and bandgap analysis using Quantum ESPRESSO.</div>
-</div>
-</div></section>
-<section class="card fade-up" style="margin-top:14px"><div class="section-title"><h2>Publications</h2><div class="muted"><a href="publications.html">See all</a></div></div>
-<div class="muted">Rudra Patel, Akhil Garg. Uncertainty-Aware Prediction of Mechanical Properties in 2D Materials Using Random Forest and Monte Carlo Simulations. (Submitted, 2025)</div></section>
-</div>
-<aside>
-<div class="card aside-card fade-up">
-<h3>Education</h3>
+  </header>
+  <main class="main">
+    <section class="container hero fade-up">
+      <div class="avatar"><img src="assets/profile.jpg" alt="Rudra Patel"></div>
+      <div class="intro">
+        <h1>Rudra Patel</h1>
+        <div class="sub muted">B.Tech (Materials Engineering) — Computational Materials • IIT Jodhpur</div>
+        <div class="contact muted">
+          <a href="mailto:patelrudra400@gmail.com"><i class="ri-mail-line"></i> patelrudra400@gmail.com</a>
+          <span style="margin:0 8px">•</span>
+          <span><i class="ri-phone-line"></i> +91-8160079643</span>
+        </div>
+        <div class="buttons">
+          <a class="btn primary" href="assets/cv_rudra.pdf" download><i class="ri-download-cloud-2-line"></i> Download
+            CV</a>
+          <a class="btn" href="https://github.com/RUDRA2108" target="_blank"><i class="ri-github-fill"></i> View
+            GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/rudra-patel-9b9821250/" target="_blank"><i
+              class="ri-linkedin-fill"></i> LinkedIn</a>
+        </div>
+      </div>
+    </section>
+    <div class="container grid">
+      <div>
+        <section class="card fade-up">
+          <div class="section-title">
+            <h2>About</h2>
+          </div>
+          <p class="muted">
+            I bridge the gap between <strong>atoms and algorithms</strong>. As a final-year Materials Engineering
+            student at <strong>IIT Jodhpur</strong>, I don't just study materials; I simulate, predict, and optimize
+            them using cutting-edge AI.
+            <br><br>
+            From predicting the mechanical properties of <strong>graphene</strong> to monitoring <strong>additive
+              manufacturing</strong> in real-time, I leverage data to accelerate discovery. My work spans
+            <strong>computational materials science</strong>, <strong>machine learning</strong>, and <strong>materials
+              informatics</strong>, aiming to solve complex challenges through data-driven and physics-informed
+            approaches.
+          </p>
+        </section>
+        <section class="card fade-up" style="margin-top:14px">
+          <div class="section-title">
+            <h2>Ongoing Projects</h2>
+            <div class="muted"><a href="ongoing.html">See all</a></div>
+          </div>
+          <div class="muted">
+            <div style="margin-bottom:8px"><strong>In-situ Monitoring & Dimensional Analysis of Additive
+                Manufacturing</strong>
+              <div>Developing an in-situ monitoring system using deep learning and 3D reconstruction to assess
+                dimensional accuracy during FDM prints.</div>
+            </div>
+            <div style="margin-bottom:8px"><strong>Layer Determination in 2D TMDs</strong>
+              <div>Using optical contrast and ML to predict the number of layers in transition metal dichalcogenides.
+              </div>
+            </div>
+            <div style="margin-bottom:8px"><strong>ML-Based Property Prediction of Li-based Oxides</strong>
+              <div>Interpretable ML pipelines to predict bandgap and formation energy for layered lithium transition
+                metal oxides.</div>
+            </div>
+          </div>
+        </section>
+        <section class="card fade-up" style="margin-top:14px">
+          <div class="section-title">
+            <h2>Selected Projects</h2>
+            <div class="muted"><a href="projects.html">See all</a></div>
+          </div>
+          <div class="project-grid">
+            <div class="project-card">
+              <strong>In-situ Monitoring of Additive Manufacturing</strong>
+              <div class="muted">Manuscript Prepared</div>
+              <div class="muted" style="margin-top:6px">Deep learning and 3D reconstruction for dimensional analysis
+                during FDM prints.</div>
+            </div>
+            <div class="project-card">
+              <strong>Automated Layer Identification of 2D Materials</strong>
+              <div class="muted">Manuscript Prepared</div>
+              <div class="muted" style="margin-top:6px">High-throughput characterization framework using deep learning
+                for real-time layer identification.</div>
+            </div>
+            <div class="project-card">
+              <strong>ML-Based Property Prediction of Li-based Oxides</strong>
+              <div class="muted">Jun 2025 – Present</div>
+              <div class="muted" style="margin-top:6px">Investigating bandgap and formation energy trends using
+                data-driven approaches and SHAP analysis.</div>
+            </div>
+            <div class="project-card">
+              <strong>Anisotropic Behavior Simulation of AM SS201 Steel</strong>
+              <div class="muted">May 2025 – Jul 2025</div>
+              <div class="muted" style="margin-top:6px">Simulating mechanical response using DAMASK and 2D EBSD data
+                with 3D RVE generation.</div>
+            </div>
+          </div>
+        </section>
+        <section class="card fade-up" style="margin-top:14px">
+          <div class="section-title">
+            <h2>Publications</h2>
+            <div class="muted"><a href="publications.html">See all</a></div>
+          </div>
+          <div class="muted" style="margin-bottom:8px">Rudra Patel et al. <strong>Uncertainty-Aware Prediction of
+              Mechanical Properties in Graphene Using Random Forest and Monte Carlo Simulations</strong>. (Under Review,
+            Meccanica, 2025)</div>
+          <div class="muted" style="margin-bottom:8px">Rudra Patel et al. <strong>In-situ Monitoring and Dimensional
+              Analysis of Additive Manufacturing Using Deep Learning and 3D Reconstruction</strong>. (Manuscript
+            Prepared)</div>
+          <div class="muted">Rudra Patel et al. <strong>Real-Time Automated Layer Identification of 2D
+              Materials</strong>. (Manuscript Prepared)</div>
+        </section>
+      </div>
+      <aside>
+        <div class="card aside-card fade-up">
+          <h3>Education</h3>
 
-<h3>Indian Institute of Technology, Jodhpur</h3>
-<div class="muted">B.Tech — Materials Engineering (Specialization: Computational Materials)</div>
-<div class="muted">August 2022 – June 2026</div>
+          <h3>Indian Institute of Technology, Jodhpur</h3>
+          <div class="muted">B.Tech — Materials Engineering (Specialization: Computational Materials)</div>
+          <div class="muted">August 2022 – June 2026</div>
 
-<div style="height:12px"></div><h3>Contact</h3>
-<div class="muted">Email: <a href="mailto:patelrudra400@gmail.com">patelrudra400@gmail.com</a><br/>Phone: +91-8160079643<br/>IIT Jodhpur, Jodhpur, India</div>
-<div style="height:12px"></div><h3>Quick Links</h3>
-<div><a class="muted" href="assets/cv_rudra.pdf" download>Download CV</a></div>
-</div></aside>
-</div>
+          <div style="height:12px"></div>
+          <h3>Contact</h3>
+          <div class="muted">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px"><i class="ri-mail-line"></i> <a
+                href="mailto:patelrudra400@gmail.com">patelrudra400@gmail.com</a></div>
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px"><i class="ri-phone-line"></i>
+              +91-8160079643</div>
+            <div style="display:flex;align-items:center;gap:8px"><i class="ri-map-pin-line"></i> IIT Jodhpur, Jodhpur,
+              India</div>
+          </div>
+          <div style="height:12px"></div>
+          <h3>Quick Links</h3>
+          <div><a class="muted" href="assets/cv_rudra.pdf" download>Download CV</a></div>
+        </div>
+      </aside>
+    </div>
 
-</main>
-<script src="js/nav.js"></script>
-<script src="js/theme.js"></script>
+  </main>
+  <script src="js/nav.js"></script>
 </body>
+
 </html>

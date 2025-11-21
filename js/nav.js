@@ -1,19 +1,29 @@
-
 document.addEventListener('DOMContentLoaded', function(){
   const hamb = document.getElementById('hamburger');
   const nav = document.getElementById('main-nav');
+  
   if(hamb){
     hamb.addEventListener('click', ()=>{
-      if(nav.style.display==='flex') nav.style.display='';
-      else nav.style.display='flex';
+      nav.classList.toggle('active');
+      const icon = hamb.querySelector('i');
+      if(nav.classList.contains('active')){
+        icon.classList.remove('ri-menu-4-line');
+        icon.classList.add('ri-close-line');
+      } else {
+        icon.classList.remove('ri-close-line');
+        icon.classList.add('ri-menu-4-line');
+      }
     });
   }
-  const links = document.querySelectorAll('#main-nav a');
-  links.forEach(a=>{
-    try{
-      if(location.pathname.endsWith(a.getAttribute('href')) || location.pathname.endsWith(a.getAttribute('href').replace('./',''))){
-        a.style.color = 'var(--accent)';
-      }
-    }catch(e){}
+
+  // Highlight active link
+  const links = document.querySelectorAll('.nav a');
+  const currentPath = location.pathname.split('/').pop() || 'index.html';
+  
+  links.forEach(a => {
+    const href = a.getAttribute('href');
+    if(href === currentPath) {
+      a.classList.add('active');
+    }
   });
 });

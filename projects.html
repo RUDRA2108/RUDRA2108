@@ -1,82 +1,103 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Projects</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&family=Roboto+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body class="theme-dark">
-<header class="site-header">
-  <div class="nav-wrap container">
-    <div class="brand"><a href="index.html">Rudra Patel</a></div>
-    <button id="hamburger" class="hamburger" aria-label="menu">☰</button>
-    <nav id="main-nav" class="nav">
-      <a href="index.html">Home</a>
-      <a href="publications.html">Publications</a>
-      <a href="ongoing.html">Ongoing</a>
-      <a href="projects.html">Projects</a>
-      <a href="skills.html">Skills</a>
-      <a href="experience.html">Experience</a>
-    </nav>
-    <div class="nav-actions">
-      <button id="theme-toggle" class="icon-btn" aria-label="toggle theme">🌓</button>
-      <a class="icon-btn" href="https://github.com/RUDRA2108" target="_blank" title="GitHub">🐱</a>
-      <a class="icon-btn" href="https://www.linkedin.com/in/rudra-patel-9b9821250/" target="_blank" title="LinkedIn">in</a>
-    </div>
-  </div>
-</header>
-<main class="main">
-<div class="container" style="padding-top:24px">
-<section class="card fade-up"><h2>Selected Projects (Completed)</h2><div class="project-grid" style="margin-top:12px">
-<div class="project-card">
-<strong>Rolling-Based Study of Ti-5553 Alloy</strong>
-<div class="muted">Aug 2024 – May 2025</div>
-<div class="muted" style="margin-top:8px">Synthesis, rolling and mechanical testing of Ti-5553 alloy; microstructure characterization and hardness testing.</div>
-</div>
-<div class="project-card">
-<strong>ML-Driven Image Processing of Electron Micrographs</strong>
-<div class="muted">Aug 2023 – Dec 2023</div>
-<div class="muted" style="margin-top:8px">Developed TEM image processing pipeline, interpolation and ML-based analysis.</div>
-<div style="margin-top:8px"><a href="https://github.com/RUDRA2108" target="_blank">Repository</a></div>
-</div>
-<div class="project-card">
-<strong>Bulk Modulus Calculation of Si and Ni using Quantum ESPRESSO</strong>
-<div class="muted">Jun 2024</div>
-<div class="muted" style="margin-top:8px">Structure optimization, energy calculations, polynomial fitting and bulk modulus extraction.</div>
-</div>
-<div class="project-card">
-<strong>Electronic Band Structure & DOS Analysis (Si & Al)</strong>
-<div class="muted">Jul 2024</div>
-<div class="muted" style="margin-top:8px">SCF & NSCF calculations, DOS plotting and bandgap analysis using Quantum ESPRESSO.</div>
-</div>
-<div class="project-card">
-<strong>Material Stability Prediction using ML & Neural Nets</strong>
-<div class="muted">Jan 2024 – Mar 2024</div>
-<div class="muted" style="margin-top:8px">Built EDA pipelines and models (Random Forest, NN). Achieved top RF performance.</div>
-<div style="margin-top:8px"><a href="https://github.com/RUDRA2108/Material-Stability-Prediction-using-Machine-Learning-and-Neural-Networks" target="_blank">Repository</a></div>
-</div>
-<div class="project-card">
-<strong>Supercell Structure Creation for Surface Property Studies</strong>
-<div class="muted">May 2024</div>
-<div class="muted" style="margin-top:8px">Created supercells (Al, Cr, Ti) with vacuum slabs using VESTA for surface studies.</div>
-</div>
-<div class="project-card">
-<strong>Alloy Crystal Development and Analysis (Brass/Bronze)</strong>
-<div class="muted">May 2024</div>
-<div class="muted" style="margin-top:8px">Created brass and bronze supercells and analyzed structural properties.</div>
-</div>
-<div class="project-card">
-<strong>Object Detection & Reporting System (YOLO + TTS)</strong>
-<div class="muted">Jan 2024 – Apr 2024</div>
-<div class="muted" style="margin-top:8px">Real-time object detection with YOLO and gTTS; deployed on Raspberry Pi.</div>
-<div style="margin-top:8px"><a href="https://github.com/RUDRA2108" target="_blank">Repository</a></div>
-</div>
-</div></section></div>
 
-</main>
-<script src="js/nav.js"></script>
-<script src="js/theme.js"></script>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="theme-dark">
+  <header class="site-header">
+    <div class="nav-wrap container">
+      <div class="brand"><a href="index.html">Rudra Patel</a></div>
+      <button id="hamburger" class="hamburger" aria-label="menu"><i class="ri-menu-4-line"></i></button>
+      <nav id="main-nav" class="nav">
+        <a href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="ongoing.html">Ongoing</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="icon-btn" href="https://github.com/RUDRA2108" target="_blank" title="GitHub"><i
+            class="ri-github-fill"></i></a>
+        <a class="icon-btn" href="https://www.linkedin.com/in/rudra-patel-9b9821250/" target="_blank"
+          title="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container" style="padding-top:24px">
+      <section class="card fade-up">
+        <h2>Selected Projects (Completed)</h2>
+        <div class="project-grid" style="margin-top:12px">
+          <div class="project-card">
+            <strong>Rolling-Based Study of Ti-5553 Alloy</strong>
+            <div class="muted">Aug 2024 – May 2025</div>
+            <div class="muted" style="margin-top:8px">Synthesized and processed Ti-5553 alloy; performed rolling,
+              mechanical testing, and microstructural analysis to study hardness variation and phase transformations.
+            </div>
+          </div>
+          <div class="project-card">
+            <strong>ML-Driven Image Processing of Electron Micrographs</strong>
+            <div class="muted">Aug 2023 – Dec 2023</div>
+            <div class="muted" style="margin-top:8px">Developed a solution to extract/process TEM data from diverse
+              formats. Used 2D interpolation and image kernels for enhancement and ML analysis.</div>
+            <div style="margin-top:8px"><a href="https://github.com/RUDRA2108" target="_blank">Repository</a></div>
+          </div>
+          <div class="project-card">
+            <strong>Bulk Modulus Calculation of Si and Ni</strong>
+            <div class="muted">Jun 2024</div>
+            <div class="muted" style="margin-top:8px">Executed structure optimization and energy computations using
+              Quantum ESPRESSO. Derived bulk modulus via polynomial fitting.</div>
+          </div>
+          <div class="project-card">
+            <strong>Electronic Band Structure & DOS Analysis</strong>
+            <div class="muted">Jul 2024</div>
+            <div class="muted" style="margin-top:8px">Conducted SCF/NSCF calculations for Si and Al. Plotted DOS and
+              band structure, comparing calculated bandgaps with experimental values.</div>
+          </div>
+          <div class="project-card">
+            <strong>Material Stability Prediction using ML & NN</strong>
+            <div class="muted">Jan 2024 – Mar 2024</div>
+            <div class="muted" style="margin-top:8px">Built stability prediction models using Random Forest, Gradient
+              Boosting, and Neural Networks. Conducted extensive EDA and feature importance analysis.</div>
+            <div style="margin-top:8px"><a href="https://github.com/RUDRA2108" target="_blank">Repository</a></div>
+          </div>
+          <div class="project-card">
+            <strong>Supercell and Alloy Structure Development</strong>
+            <div class="muted">May 2024</div>
+            <div class="muted" style="margin-top:8px">Constructed supercells with vacuum slabs for Al, Cr, Ti surfaces.
+              Developed Cu-based alloys (Brass/Bronze) to evaluate compositional effects.</div>
+          </div>
+          <div class="project-card">
+            <strong>Object Detection & Reporting System (YOLO + TTS)</strong>
+            <div class="muted">Jan 2024 – Apr 2024</div>
+            <div class="muted" style="margin-top:8px">Real-time object detection system on Raspberry Pi using YOLO and
+              gTTS. Integrated OpenCV for efficient image processing.</div>
+            <div style="margin-top:8px"><a href="https://github.com/RUDRA2108" target="_blank">Repository</a></div>
+          </div>
+          <div class="project-card">
+            <strong>Prediction of Grasp and Lift EEG Motion Detection</strong>
+            <div class="muted">Aug 2023 – Dec 2023</div>
+            <div class="muted" style="margin-top:8px">Utilized neural networks to predict hand movements from EEG data.
+              Implemented advanced signal processing and denoising techniques.</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </main>
+  <script src="js/nav.js"></script>
 </body>
+
 </html>
