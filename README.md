@@ -54,9 +54,3 @@ I am a final-year **Materials Engineering** undergraduate at **IIT Jodhpur**, pa
 <a href="https://github.com/RUDRA2108" target="blank"><img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="RUDRA2108" height="30" /></a>
 </p>
 
-<br />
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RUDRA2108&show_icons=true&theme=radical" height="150" alt="Rudra's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RUDRA2108&layout=compact&theme=radical" height="150" alt="Top Languages" />
-</div>
